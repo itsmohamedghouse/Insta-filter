@@ -1,7 +1,11 @@
+# import Image frm PIL
 from PIL import Image
+
+# load images into objects
 base_img=Image.open("4.jpg")
 img_filter=Image.open("filter.jpg")
 
+#set image size
 size=(760,760)
 base_img=base_img.resize(size)
 img_filter=img_filter.resize(size)
